@@ -1,0 +1,23 @@
+# RetailPulse — Python dependencies
+# Install with: pip install -r requirements.txt
+
+# --- Core data stack ---------------------------------------------------
+pandas>=2.1
+numpy>=1.26
+openpyxl>=3.1        # .xlsx reading
+pyarrow>=14.0         # Parquet caching for fast reloads
+xlsxwriter>=3.1       # .xlsx export for download buttons
+
+# --- Machine learning ----------------------------------------------------
+scikit-learn>=1.3     # KMeans, RandomForest, preprocessing, metrics
+statsmodels>=0.14      # Holt-Winters fallback forecasting
+joblib>=1.3            # Model persistence
+
+# Prophet is optional: forecasting.py automatically falls back to
+# statsmodels Holt-Winters if Prophet is unavailable or fails to install/fit.
+# It is included by default for the primary forecasting engine.
+prophet>=1.1
+
+# --- App & visualization --------------------------------------------------
+streamlit>=1.32
+plotly>=5.18
