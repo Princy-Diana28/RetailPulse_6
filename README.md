@@ -191,18 +191,6 @@ and writes the cache automatically.
 - Invoices prefixed `C` are cancellations and are excluded from the core
   sales table (flagged separately in the cleaning report).
 
-## Screenshots
-
-| Overview | Customer Segmentation |
-|---|---|
-| ![Overview dashboard](assets/screenshot-home.png) | ![Segmentation](assets/screenshot-segmentation.png) |
-
-| Demand Forecasting | Inventory Optimization |
-|---|---|
-| ![Forecasting](assets/screenshot-forecasting.png) | ![Inventory](assets/screenshot-inventory.png) |
-
-*(Drop PNGs with these filenames into `assets/` and GitHub will render them inline.)*
-
 ## Technologies Used
 
 | Layer | Tools |
